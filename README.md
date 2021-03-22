@@ -1,6 +1,14 @@
-# run-buddy
-description: add text to describe what this repo does
+# Run Buddy
 
+## Purpose
+A website that offers fitness training services.
 
-## How to run code:
-open index.html file in chrome
+## Built With
+* HTML
+* CSS
+
+## Website
+https://lernantino.github.io/run-buddy/
+
+## Contribution
+Made with ❤️ by [Jose Molina]
