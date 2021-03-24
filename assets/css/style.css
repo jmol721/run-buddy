@@ -20,7 +20,6 @@ header {
     top: 0%;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
     background-position: 80%;
 }
@@ -209,14 +208,15 @@ section {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
+    border-bottom: 1px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
-.step:not(:last-child) {
-    border-bottom: 1px solid #39a6b2;
+.step:last-child {
+    border-bottom: none;
 }
 
 .step h3 {
